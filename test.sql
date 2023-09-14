@@ -1,9 +1,8 @@
 CREATE TABLE Persons12345 (
     PersonID int,
-    LastName varchar(255),
-    FirstName varchar(255),
-
-  
-    Address varchar(255),
-    City varchar(255)
+    Name varchar(255),
 );
+
+Insert into person12345 values(1,"NAME")
+
+Select * from person12345;
